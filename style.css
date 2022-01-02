@@ -1,0 +1,88 @@
+body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;;
+}
+
+/***************Üst Kısım*********************/
+#logo {
+    line-height: 10px;
+}
+#logo img {
+    width: 100px;
+    height: 100px;
+}
+
+#ust {
+    background-color: rgb(230, 245, 145);
+    text-align: center;
+}
+.menu {
+    list-style-type: none;
+    overflow: hidden;
+}
+.menu li {
+    /* float: left; */
+    display:inline-block;
+}
+.menu li a {
+    display: block;
+    padding:12px 14px;
+    color:grey;
+    text-decoration:none;
+}
+
+.menu li a:hover{
+    background-color: silver;
+}
+
+
+/**************Orta Kısım*******************/
+article {
+    width: 60%;
+    margin: 10px auto;
+}
+article ol {
+    list-style-type: none;
+    overflow: hidden;
+}
+article ol li {
+    margin:5px;
+}
+article li a {
+    display: block;
+    color:grey;
+    text-decoration:none;
+}
+article li a:hover{
+    text-decoration: underline;
+}
+article ol li img {
+    width: 250px;
+    height: 150px;
+}
+
+article a img {
+    width: 50px;
+    height: 50px;
+}
+
+/***********Alt Kısım*************************/
+footer {
+    background-color: rgb(230, 245, 145);
+    margin: 10px 0px;
+    padding:5px;
+    
+}
+
+/************Genel Tanımlamalar****************/
+.kirmiziBaslik {
+    color: crimson;
+    font-size: 32px;
+}
+.griYazi {
+    color: grey;
+    font-size: 14px;
+}
+.aktif {
+    background-color: silver;
+}
